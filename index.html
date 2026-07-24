@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>J. R. Manners Roofing Ltd - Flat Roofing Specialists, Sunderland &amp; Houghton Le Spring</title>
+<meta name="description" content="Family-run flat roofing specialists established 1974. Serving Sunderland, Houghton Le Spring and Tyne and Wear for over 50 years. All work guaranteed. Free estimates. Call 0191 385 7646.">
+<meta property="og:title" content="J. R. Manners Roofing Ltd - Established 1974">
+<meta property="og:description" content="Flat roofing specialists in Sunderland and Houghton Le Spring. Over 50 years, all work guaranteed.">
+<meta property="og:image" content="https://andrei170.github.io/jr-manners-demo/img/van-team.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RoofingContractor",
+  "name": "J. R. Manners Roofing Ltd",
+  "image": "https://andrei170.github.io/jr-manners-demo/img/van-team.png",
+  "telephone": "+441913857646",
+  "foundingDate": "1974",
+  "address": { "@type": "PostalAddress", "streetAddress": "Samdean, Ewehill Terrace, Fencehouses",
+    "addressLocality": "Houghton Le Spring", "addressRegion": "Tyne and Wear",
+    "postalCode": "DH4 6JU", "addressCountry": "GB" },
+  "areaServed": ["Sunderland","Houghton Le Spring","Fencehouses","Tyne and Wear"],
+  "priceRange": "Free estimates",
+  "knowsAbout": ["Flat roofing","Felt roofing","Rubber roofing","Dry ridge and verge","Guttering","uPVC fascias"],
+  "openingHours": ["Mo-Th 08:00-18:00","Fr 08:00-17:00","Sa 08:00-14:00","Su 08:00-12:00"]
+}
+</script>
+<style>
+  :root{
+    --blue:#2b9fd8; --blue-deep:#1a6f99; --navy:#10202b; --navy2:#16303f; --ink:#12181f; --mut:#5a6472;
+    --bg:#ffffff; --panel:#f4f7f9; --panel2:#e8eff4; --line:#dde5ea;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;color:var(--ink);
+    background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:'Fraunces',Georgia,serif;font-weight:600;letter-spacing:-.015em}
+  img{max-width:100%;display:block}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+  .eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:12px;font-weight:700;color:var(--blue-deep)}
+
+  nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--line)}
+  .navin{max-width:1180px;margin:0 auto;padding:13px 24px;display:flex;align-items:center;justify-content:space-between}
+  .brand{display:flex;flex-direction:column;line-height:1.15}
+  .brand b{font-family:'Fraunces',serif;font-size:18px;font-weight:700;color:var(--navy)}
+  .brand span{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue-deep);font-weight:700}
+  .navlinks{display:flex;gap:26px;font-size:14.5px;font-weight:600}
+  .navlinks a{color:var(--mut);position:relative;padding:2px 0}
+  .navlinks a:after{content:"";position:absolute;left:0;bottom:-2px;width:0;height:2px;background:var(--blue);transition:width .25s}
+  .navlinks a:hover{color:var(--ink)}
+  .navlinks a:hover:after{width:100%}
+  .navcta{display:flex;align-items:center;gap:14px}
+  .navcta .tel{font-weight:700;font-size:14.5px;color:var(--ink);display:flex;align-items:center;gap:6px}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:8px;font-weight:700;
+    font-size:14.5px;border:none;cursor:pointer;transition:transform .18s,background .18s,color .18s}
+  .btn:hover{transform:translateY(-1px)}
+  .btn-primary{background:var(--blue);color:#fff}
+  .btn-primary:hover{background:var(--blue-deep)}
+  .btn-outline{background:transparent;border:1.5px solid var(--line);color:var(--ink)}
+  @media(max-width:940px){.navlinks,.navcta .tel{display:none}}
+
+  .hero{position:relative;overflow:hidden;padding:80px 0 76px;color:#fff;background:var(--navy)}
+  .heroPhoto{position:absolute;inset:0;background-image:url('img/van-team.png');background-size:cover;
+    background-position:center 35%;opacity:.22}
+  .heroGrad{position:absolute;inset:0;background:
+    linear-gradient(180deg,rgba(16,32,43,.6),rgba(16,32,43,.94) 65%,var(--navy) 100%),
+    radial-gradient(900px 500px at 12% -10%,rgba(43,159,216,.3),transparent)}
+  .heroIn{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:52px;align-items:center}
+  @media(max-width:960px){.heroIn{grid-template-columns:1fr;gap:42px;text-align:center}}
+  .estBadge{display:inline-flex;align-items:center;gap:9px;background:rgba(43,159,216,.16);
+    border:1px solid rgba(43,159,216,.45);padding:8px 17px;border-radius:999px;font-size:13px;
+    font-weight:700;margin-bottom:24px;color:#bfe6f9;letter-spacing:.03em}
+  .hero h1{font-size:clamp(33px,4.6vw,52px);line-height:1.07;margin-bottom:20px}
+  .hero h1 em{font-style:normal;color:#6ec8f0}
+  .hero p.lead{font-size:17px;color:#c1ccd6;max-width:540px;margin:0 0 32px}
+  @media(max-width:960px){.hero p.lead{margin:0 auto 32px}}
+  .heroBtns{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:38px}
+  @media(max-width:960px){.heroBtns{justify-content:center}}
+  .heroStats{display:flex;flex-wrap:wrap;border-top:1px solid rgba(255,255,255,.12);padding-top:28px}
+  @media(max-width:960px){.heroStats{justify-content:center}}
+  .hstat{padding-right:28px;margin-right:28px;border-right:1px solid rgba(255,255,255,.12)}
+  .hstat:last-child{border-right:none;margin-right:0;padding-right:0}
+  @media(max-width:600px){.hstat{border-right:none;padding:8px 14px;margin-right:0}}
+  .hstat b{font-family:'Fraunces',serif;font-size:29px;display:block;color:#6ec8f0;line-height:1.1}
+  .hstat span{font-size:11.5px;color:#93a3b0;text-transform:uppercase;letter-spacing:.09em}
+
+  .heroForm{background:#fff;border-radius:20px;padding:32px;color:var(--ink);text-align:left;
+    box-shadow:0 24px 60px rgba(0,0,0,.4)}
+  .heroForm .hfTag{display:inline-block;background:var(--panel2);color:var(--blue-deep);font-size:11px;
+    font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:5px 11px;border-radius:999px;margin-bottom:14px}
+  .heroForm h3{font-size:21px;margin-bottom:6px}
+  .heroForm .sub2{color:var(--mut);font-size:13.5px;margin-bottom:20px}
+  .fld{margin-bottom:15px}
+  .fld label{display:block;font-size:12px;font-weight:700;color:var(--mut);text-transform:uppercase;
+    letter-spacing:.06em;margin-bottom:6px}
+  .fld input,.fld select{width:100%;padding:12px 14px;border:1.5px solid var(--line);border-radius:8px;
+    font-size:14.5px;font-family:inherit;color:var(--ink);background:#fff}
+  .fld input:focus,.fld select:focus{outline:none;border-color:var(--blue)}
+  .fld2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  @media(max-width:520px){.fld2{grid-template-columns:1fr}}
+  .heroForm .btn,.optinForm .btn{width:100%;justify-content:center;font-size:15px;padding:14px;margin-top:4px}
+  .heroForm .fine,.optinForm .fine{font-size:11.5px;color:var(--mut);text-align:center;margin-top:12px}
+
+  [data-reveal]{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+  [data-reveal].in{opacity:1;transform:none}
+
+  .trust{background:var(--panel);border-bottom:1px solid var(--line);padding:22px 0}
+  .trustIn{display:flex;align-items:center;justify-content:center;gap:38px;flex-wrap:wrap;color:var(--mut);
+    font-size:13.5px;font-weight:600}
+  .trustIn div{display:flex;align-items:center;gap:8px}
+  .trustIn iconify-icon{color:var(--blue-deep);font-size:19px}
+
+  section{padding:88px 0}
+  .secHead{text-align:center;max-width:660px;margin:0 auto 52px}
+  .secHead h2{font-size:clamp(27px,3.5vw,40px);margin:12px 0 14px}
+  .secHead p{color:var(--mut);font-size:16px}
+
+  .svcGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  @media(max-width:900px){.svcGrid{grid-template-columns:1fr 1fr}}
+  @media(max-width:600px){.svcGrid{grid-template-columns:1fr}}
+  .svcCard{border:1px solid var(--line);border-radius:16px;padding:28px;position:relative;overflow:hidden;
+    transition:border-color .22s,transform .22s,box-shadow .22s}
+  .svcCard:before{content:"";position:absolute;top:0;left:0;width:100%;height:3px;background:var(--blue);
+    transform:scaleX(0);transform-origin:left;transition:transform .3s}
+  .svcCard:hover{border-color:var(--blue);transform:translateY(-4px);box-shadow:0 12px 30px rgba(43,159,216,.12)}
+  .svcCard:hover:before{transform:scaleX(1)}
+  .svcCard iconify-icon{font-size:30px;color:var(--blue-deep);margin-bottom:14px;display:block}
+  .svcCard h3{font-size:18px;margin-bottom:8px}
+  .svcCard p{color:var(--mut);font-size:14.5px}
+  .spec{display:inline-block;background:var(--panel2);color:var(--blue-deep);font-size:10.5px;font-weight:800;
+    letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:999px;margin-bottom:10px}
+
+  .story{background:var(--navy);color:#fff;position:relative;overflow:hidden}
+  .story:before{content:"";position:absolute;inset:0;background:radial-gradient(800px 400px at 85% 0,rgba(43,159,216,.16),transparent)}
+  .storyIn{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center}
+  @media(max-width:900px){.storyIn{grid-template-columns:1fr;gap:36px}}
+  .story h2{font-size:clamp(26px,3.4vw,38px);margin:12px 0 16px;color:#fff}
+  .story p{color:#c1ccd6;font-size:15.5px;margin-bottom:14px}
+  .storyPhoto{border-radius:18px;overflow:hidden;border:1px solid rgba(255,255,255,.14)}
+  .timeline{list-style:none;margin-top:22px}
+  .timeline li{display:flex;gap:16px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.09)}
+  .timeline li:last-child{border-bottom:none}
+  .tyear{font-family:'Fraunces',serif;font-size:17px;color:#6ec8f0;font-weight:700;flex-shrink:0;width:64px}
+  .timeline b{display:block;font-size:15px;color:#fff;margin-bottom:2px}
+  .timeline span{font-size:13.5px;color:#93a3b0}
+
+  .revBand{background:var(--panel)}
+  .tGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  @media(max-width:900px){.tGrid{grid-template-columns:1fr}}
+  .tCard{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px;transition:box-shadow .22s}
+  .tCard:hover{box-shadow:0 10px 26px rgba(43,159,216,.1)}
+  .stars{color:#f0a92b;font-size:14px;margin-bottom:10px;letter-spacing:2px}
+  .tCard p{font-size:14.5px;color:var(--ink);margin-bottom:16px;font-style:italic}
+  .tWho{display:flex;align-items:center;gap:10px}
+  .tAvatar{width:38px;height:38px;border-radius:50%;background:var(--navy);color:#6ec8f0;display:flex;
+    align-items:center;justify-content:center;font-weight:700;font-size:13px}
+  .tName{font-weight:700;font-size:13.5px}
+  .tMeta{font-size:11.5px;color:var(--mut)}
+
+  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:26px}
+  @media(max-width:900px){.steps{grid-template-columns:1fr 1fr}}
+  @media(max-width:560px){.steps{grid-template-columns:1fr}}
+  .step{text-align:center}
+  .stepnum{width:54px;height:54px;border-radius:50%;background:var(--navy);color:#6ec8f0;
+    font-family:'Fraunces',serif;font-size:22px;font-weight:700;display:flex;align-items:center;
+    justify-content:center;margin:0 auto 18px;border:1px solid var(--blue)}
+  .step h4{font-size:17px;margin-bottom:8px}
+  .step p{color:var(--mut);font-size:14px;max-width:250px;margin:0 auto}
+
+  .optin{background:var(--navy2);color:#fff;position:relative;overflow:hidden}
+  .optin:before{content:"";position:absolute;inset:0;background:radial-gradient(700px 380px at 15% 0,rgba(43,159,216,.18),transparent)}
+  .optinGrid{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center}
+  @media(max-width:900px){.optinGrid{grid-template-columns:1fr;gap:36px}}
+  .optin h2{font-size:clamp(25px,3.3vw,36px);margin-bottom:14px;color:#fff}
+  .optin p.lead2{color:#c1ccd6;font-size:15.5px;margin-bottom:24px}
+  .optinList{list-style:none}
+  .optinList li{display:flex;gap:11px;padding:7px 0;font-size:14.5px;color:#dfe9f0}
+  .optinList li iconify-icon{color:#6ec8f0;font-size:18px;flex-shrink:0;margin-top:3px}
+  .optinForm{background:#fff;border-radius:18px;padding:34px;color:var(--ink);box-shadow:0 20px 50px rgba(0,0,0,.28)}
+  .optinForm h3{font-size:20px;margin-bottom:6px}
+  .optinForm .sub2{color:var(--mut);font-size:13.5px;margin-bottom:22px}
+
+  .faq{max-width:780px;margin:0 auto}
+  .faqItem{border-bottom:1px solid var(--line)}
+  .faqQ{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:21px 0;cursor:pointer;
+    font-weight:700;font-size:16px}
+  .faqQ iconify-icon{color:var(--blue-deep);transition:transform .25s;flex-shrink:0}
+  .faqItem.open .faqQ iconify-icon{transform:rotate(45deg)}
+  .faqA{max-height:0;overflow:hidden;transition:max-height .3s ease}
+  .faqA p{color:var(--mut);font-size:14.5px;padding-bottom:21px;max-width:660px}
+  .faqItem.open .faqA{max-height:260px}
+
+  .area{background:var(--navy);color:#fff}
+  .areaTags{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px;justify-content:center}
+  .areaTags span{background:rgba(43,159,216,.1);border:1px solid rgba(43,159,216,.3);padding:8px 15px;
+    border-radius:999px;font-size:13.5px;transition:background .2s}
+  .areaTags span:hover{background:rgba(43,159,216,.2)}
+
+  .ctaBand{background:linear-gradient(120deg,var(--blue),var(--blue-deep));color:#fff;text-align:center}
+  .ctaBand h2{font-size:clamp(26px,3.6vw,40px);margin-bottom:14px;color:#fff}
+  .ctaBand p{color:#dff1fb;margin-bottom:30px;font-size:16px}
+  .ctaBtns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+  .ctaBand .btn-primary{background:#0d1a23;color:#fff}
+  .ctaBand .btn-outline{border-color:rgba(255,255,255,.45);color:#fff}
+
+  footer{background:#0d1a23;color:#93a3b0;padding:58px 0 26px;font-size:14px}
+  .footGrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;padding-bottom:36px;
+    border-bottom:1px solid rgba(255,255,255,.08)}
+  @media(max-width:760px){.footGrid{grid-template-columns:1fr}}
+  .footBrand b{font-family:'Fraunces',serif;font-size:19px;color:#fff;display:block}
+  .footBrand span{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#6ec8f0;font-weight:700}
+  footer h5{color:#fff;font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:14px}
+  footer a{display:block;color:#93a3b0;padding:5px 0;font-size:14px}
+  footer a:hover{color:#6ec8f0}
+  .footBottom{padding-top:22px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:12.5px}
+
+  .mobileCta{display:none;position:fixed;left:0;right:0;bottom:0;z-index:60;background:#fff;
+    border-top:1px solid var(--line);padding:12px 16px;gap:10px;box-shadow:0 -6px 20px rgba(0,0,0,.09)}
+  @media(max-width:760px){.mobileCta{display:flex}body{padding-bottom:70px}}
+  .mobileCta .btn{flex:1;justify-content:center}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="navin">
+    <a class="brand" href="#top"><b>J. R. Manners</b><span>Roofing Ltd &middot; Est. 1974</span></a>
+    <div class="navlinks">
+      <a href="#services">Services</a>
+      <a href="#story">Since 1974</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#process">How It Works</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <div class="navcta">
+      <a class="tel" href="tel:+441913857646"><iconify-icon icon="ph:phone-fill"></iconify-icon>0191 385 7646</a>
+      <a class="btn btn-primary" href="#quote"><iconify-icon icon="ph:calendar-check-bold"></iconify-icon>Free Estimate</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="heroPhoto"></div>
+  <div class="heroGrad"></div>
+  <div class="wrap heroIn">
+    <div data-reveal>
+      <div class="estBadge"><iconify-icon icon="ph:medal-fill"></iconify-icon>Established 1974 &middot; Family Run</div>
+      <h1>Sunderland's flat roofing specialists for <em>over 50 years</em>.</h1>
+      <p class="lead">Three generations of the Manners family, working across Sunderland, Houghton Le Spring and Tyne and Wear since 1974. All work guaranteed, free estimates, no pressure.</p>
+      <div class="heroBtns">
+        <a class="btn btn-primary" href="tel:+441913857646"><iconify-icon icon="ph:phone-fill"></iconify-icon>0191 385 7646</a>
+        <a class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,.32)" href="#quote"><iconify-icon icon="ph:calendar-check-bold"></iconify-icon>Free Estimate</a>
+      </div>
+      <div class="heroStats">
+        <div class="hstat"><b>1974</b><span>Established</span></div>
+        <div class="hstat"><b>50+</b><span>Years Trading</span></div>
+        <div class="hstat"><b>Guaranteed</b><span>All Work</span></div>
+      </div>
+    </div>
+
+    <form class="heroForm" data-reveal onsubmit="return false">
+      <div class="hfTag">Free Estimate</div>
+      <h3>Tell us about the roof</h3>
+      <div class="sub2">We'll come and look, then give you a straight price. No obligation.</div>
+      <div class="fld2">
+        <div class="fld"><label>Name</label><input type="text" placeholder="Your name" required></div>
+        <div class="fld"><label>Phone</label><input type="tel" placeholder="07000 000000" required></div>
+      </div>
+      <div class="fld"><label>Postcode</label><input type="text" placeholder="DH4 ..." required></div>
+      <div class="fld"><label>What do you need?</label>
+        <select required>
+          <option value="">Select the work</option>
+          <option>Flat roofing</option>
+          <option>Felt roofing</option>
+          <option>Rubber roofing</option>
+          <option>Roof repairs</option>
+          <option>Dry ridge / dry verge</option>
+          <option>Guttering</option>
+          <option>uPVC fascias &amp; soffits</option>
+          <option>Not sure, need someone to look</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary"><iconify-icon icon="ph:calendar-check-bold"></iconify-icon>Request My Free Estimate</button>
+      <div class="fine">No pressure, no hard sell. Same family business since 1974.</div>
+    </form>
+  </div>
+</header>
+
+<div class="trust">
+  <div class="wrap trustIn">
+    <div><iconify-icon icon="ph:medal-fill"></iconify-icon>Established 1974</div>
+    <div><iconify-icon icon="ph:shield-check-fill"></iconify-icon>All Work Guaranteed</div>
+    <div><iconify-icon icon="ph:map-pin-fill"></iconify-icon>Sunderland &amp; Houghton Le Spring</div>
+    <div><iconify-icon icon="ph:currency-gbp"></iconify-icon>Free Estimates</div>
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="secHead" data-reveal>
+      <div class="eyebrow">Services</div>
+      <h2>Flat roofing specialists, and everything around it</h2>
+      <p>Fifty years of doing the work most roofers pass on.</p>
+    </div>
+    <div class="svcGrid">
+      <div class="svcCard" data-reveal>
+        <div class="spec">Our Specialism</div>
+        <iconify-icon icon="ph:blueprint-fill"></iconify-icon>
+        <h3>Flat Roofing</h3>
+        <p>The work we've built five decades on. Repairs and full replacements, done properly.</p>
+      </div>
+      <div class="svcCard" data-reveal>
+        <div class="spec">Our Specialism</div>
+        <iconify-icon icon="ph:stack-fill"></iconify-icon>
+        <h3>Felt Roofing</h3>
+        <p>Torch-on felt systems, laid by people who've done thousands of them.</p>
+      </div>
+      <div class="svcCard" data-reveal>
+        <div class="spec">Our Specialism</div>
+        <iconify-icon icon="ph:drop-half-bottom-fill"></iconify-icon>
+        <h3>Rubber Roofing</h3>
+        <p>Long-life rubber membrane roofing for flat and low-pitch roofs.</p>
+      </div>
+      <div class="svcCard" data-reveal>
+        <iconify-icon icon="ph:wrench-fill"></iconify-icon>
+        <h3>All Roof Repairs</h3>
+        <p>Leaks traced and fixed properly, rather than patched and revisited.</p>
+      </div>
+      <div class="svcCard" data-reveal>
+        <iconify-icon icon="ph:house-line-fill"></iconify-icon>
+        <h3>Dry Ridge &amp; Dry Verge</h3>
+        <p>Modern mechanically fixed systems, no mortar to crack and fail.</p>
+      </div>
+      <div class="svcCard" data-reveal>
+        <iconify-icon icon="ph:drop-fill"></iconify-icon>
+        <h3>Guttering &amp; uPVC Fascias</h3>
+        <p>Repairs, replacement and cleaning, plus fascias and soffits.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="story" id="story">
+  <div class="wrap storyIn">
+    <div data-reveal>
+      <div class="eyebrow" style="color:#6ec8f0">Since 1974</div>
+      <h2>Fifty-one years, same family, same area</h2>
+      <p>J. R. Manners Roofing has been working on roofs across Sunderland and Houghton Le Spring since 1974. John Manners has over forty years on the tools himself, and Dean now runs the business alongside him.</p>
+      <p>In that time we've re-roofed houses we first worked on decades ago, for families we've known just as long. That is not a marketing line, it is in the reviews, some from customers who have used us for over thirty years.</p>
+      <ul class="timeline">
+        <li><div class="tyear">1974</div><div><b>Founded</b><span>J. R. Manners Roofing established in Tyne and Wear.</span></div></li>
+        <li><div class="tyear">40+</div><div><b>Years on the tools</b><span>John Manners, still hands-on with the work.</span></div></li>
+        <li><div class="tyear">Today</div><div><b>Second generation running it</b><span>Dean Manners, same standards, same area.</span></div></li>
+      </ul>
+    </div>
+    <div data-reveal>
+      <div class="storyPhoto"><img src="img/van-team.png" alt="J. R. Manners Roofing van and team member on site"></div>
+    </div>
+  </div>
+</section>
+
+<section class="revBand" id="reviews">
+  <div class="wrap">
+    <div class="secHead" data-reveal>
+      <div class="eyebrow">Reviews</div>
+      <h2>What customers actually say</h2>
+      <p>Real names, real towns, some going back more than thirty years.</p>
+    </div>
+    <div class="tGrid">
+      <div class="tCard" data-reveal>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>"Excellent value for money."</p>
+        <div class="tWho"><div class="tAvatar">IP</div><div><div class="tName">Irene Pallas</div><div class="tMeta">50 years a customer</div></div></div>
+      </div>
+      <div class="tCard" data-reveal>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>"Reliable and quality work, every time."</p>
+        <div class="tWho"><div class="tAvatar">CA</div><div><div class="tName">Chas Armstrong</div><div class="tMeta">30+ years a customer</div></div></div>
+      </div>
+      <div class="tCard" data-reveal>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>"Excellent firm, came out to an emergency and sorted it."</p>
+        <div class="tWho"><div class="tAvatar">HH</div><div><div class="tName">Hetton Le Hole</div><div class="tMeta">December 2019</div></div></div>
+      </div>
+      <div class="tCard" data-reveal>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>"New dry verge fitted, five stars."</p>
+        <div class="tWho"><div class="tAvatar">DL</div><div><div class="tName">Dairy Lane Estate</div><div class="tMeta">Houghton Le Spring &middot; Dec 2019</div></div></div>
+      </div>
+      <div class="tCard" data-reveal>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>"Professional workmanship and good materials."</p>
+        <div class="tWho"><div class="tAvatar">JM</div><div><div class="tName">J. I. Mordey</div><div class="tMeta">House &amp; garage roof &middot; Oct 2017</div></div></div>
+      </div>
+      <div class="tCard" data-reveal>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>"Trustworthy and honest."</p>
+        <div class="tWho"><div class="tAvatar">IO</div><div><div class="tName">Ian O'Donnell</div><div class="tMeta">July 2016</div></div></div>
+      </div>
+    </div>
+    <p style="text-align:center;color:var(--mut);font-size:14px;margin-top:26px">Seventeen more reviews with names and dates, from customers across Sunderland, Houghton Le Spring, Silksworth and Hetton Le Hole.</p>
+  </div>
+</section>
+
+<section id="process">
+  <div class="wrap">
+    <div class="secHead" data-reveal>
+      <div class="eyebrow">How It Works</div>
+      <h2>Four steps, no surprises</h2>
+    </div>
+    <div class="steps">
+      <div class="step" data-reveal>
+        <div class="stepnum">1</div>
+        <h4>Give Us a Call</h4>
+        <p>Or fill in the form. Tell us roughly what's wrong and where you are.</p>
+      </div>
+      <div class="step" data-reveal>
+        <div class="stepnum">2</div>
+        <h4>We Come and Look</h4>
+        <p>Free estimate, in person. We'll tell you honestly if it needs doing or not.</p>
+      </div>
+      <div class="step" data-reveal>
+        <div class="stepnum">3</div>
+        <h4>Straight Price</h4>
+        <p>What we quote is what you pay. No extras appearing halfway through.</p>
+      </div>
+      <div class="step" data-reveal>
+        <div class="stepnum">4</div>
+        <h4>Job Done, Guaranteed</h4>
+        <p>All work guaranteed, and we're still here if you need us in ten years.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="optin" id="quote">
+  <div class="wrap">
+    <div class="optinGrid">
+      <div data-reveal>
+        <div class="eyebrow" style="color:#6ec8f0">Free Estimate</div>
+        <h2>Get a free estimate</h2>
+        <p class="lead2">Fill this in and we'll come out and look at the roof properly, then give you a straight price. Same family business that's been doing this in your area since 1974.</p>
+        <ul class="optinList">
+          <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Free estimate, no obligation</li>
+          <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>All work guaranteed</li>
+          <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Flat roofing specialists since 1974</li>
+          <li><iconify-icon icon="ph:check-circle-fill"></iconify-icon>Local, and staying local</li>
+        </ul>
+      </div>
+      <form class="optinForm" data-reveal onsubmit="return false">
+        <h3>Request Your Free Estimate</h3>
+        <div class="sub2">Takes less than two minutes</div>
+        <div class="fld2">
+          <div class="fld"><label>Name</label><input type="text" placeholder="Your name" required></div>
+          <div class="fld"><label>Phone</label><input type="tel" placeholder="07000 000000" required></div>
+        </div>
+        <div class="fld"><label>Postcode</label><input type="text" placeholder="DH4 ..." required></div>
+        <div class="fld"><label>What do you need?</label>
+          <select required>
+            <option value="">Select the work</option>
+            <option>Flat roofing</option>
+            <option>Felt roofing</option>
+            <option>Rubber roofing</option>
+            <option>Roof repairs</option>
+            <option>Dry ridge / dry verge</option>
+            <option>Guttering</option>
+            <option>uPVC fascias &amp; soffits</option>
+            <option>Not sure, need someone to look</option>
+          </select>
+        </div>
+        <div class="fld"><label>How soon?</label>
+          <select required>
+            <option value="">Select a timescale</option>
+            <option>Urgent, there's a leak</option>
+            <option>Within the next month</option>
+            <option>1 to 3 months</option>
+            <option>Just after a price for now</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary"><iconify-icon icon="ph:calendar-check-bold"></iconify-icon>Request My Free Estimate</button>
+        <div class="fine">We'll get back to you to arrange a time that suits.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="secHead" data-reveal>
+      <div class="eyebrow">FAQ</div>
+      <h2>Good to know</h2>
+    </div>
+    <div class="faq" data-reveal>
+      <div class="faqItem open">
+        <div class="faqQ">How long have you been trading?<iconify-icon icon="ph:plus-bold"></iconify-icon></div>
+        <div class="faqA"><p>Since 1974, so over fifty years. Same family, same part of Tyne and Wear. Some of our customers have used us for more than thirty years.</p></div>
+      </div>
+      <div class="faqItem">
+        <div class="faqQ">Is the estimate really free?<iconify-icon icon="ph:plus-bold"></iconify-icon></div>
+        <div class="faqA"><p>Yes. We'll come out, look at the roof and give you a price, with no charge and no obligation to go ahead.</p></div>
+      </div>
+      <div class="faqItem">
+        <div class="faqQ">Do you guarantee the work?<iconify-icon icon="ph:plus-bold"></iconify-icon></div>
+        <div class="faqA"><p>All work is guaranteed. We're a local family firm that has been here fifty years, so we're not difficult to find if something needs looking at again.</p></div>
+      </div>
+      <div class="faqItem">
+        <div class="faqQ">What areas do you cover?<iconify-icon icon="ph:plus-bold"></iconify-icon></div>
+        <div class="faqA"><p>Sunderland, Houghton Le Spring, Fencehouses and the wider Tyne and Wear area.</p></div>
+      </div>
+      <div class="faqItem">
+        <div class="faqQ">Can you come out at short notice?<iconify-icon icon="ph:plus-bold"></iconify-icon></div>
+        <div class="faqA"><p>We're open six days a week plus Sunday mornings, and can be flexible outside those hours for genuine emergencies like a leak after a storm.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="area" id="area">
+  <div class="wrap">
+    <div class="secHead" data-reveal style="color:#fff">
+      <div class="eyebrow" style="color:#6ec8f0">Areas Covered</div>
+      <h2 style="color:#fff">Sunderland, Houghton Le Spring &amp; Tyne and Wear</h2>
+      <p style="color:#c1ccd6">Local since 1974, and not going anywhere.</p>
+    </div>
+    <div class="areaTags">
+      <span>Sunderland</span><span>Houghton Le Spring</span><span>Fencehouses</span><span>Hetton Le Hole</span>
+      <span>Silksworth</span><span>Shiney Row</span><span>Penshaw</span><span>Washington</span>
+      <span>Seaham</span><span>Tyne and Wear</span>
+    </div>
+  </div>
+</section>
+
+<section class="ctaBand" id="callquote">
+  <div class="wrap">
+    <h2>Get your free estimate</h2>
+    <p>Established 1974. All work guaranteed. Sunderland and Houghton Le Spring.</p>
+    <div class="ctaBtns">
+      <a class="btn btn-primary" href="tel:+441913857646"><iconify-icon icon="ph:phone-fill"></iconify-icon>Call 0191 385 7646</a>
+      <a class="btn btn-outline" href="tel:+447989441652"><iconify-icon icon="ph:device-mobile-fill"></iconify-icon>Mobile 07989 441652</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footGrid">
+      <div>
+        <div class="footBrand"><b>J. R. Manners Roofing Ltd</b><span>Established 1974</span></div>
+        <p style="max-width:330px;font-size:14px;margin-top:12px">Family-run flat roofing specialists serving Sunderland, Houghton Le Spring and Tyne and Wear for over fifty years. All work guaranteed.</p>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <a href="#services">Services</a>
+        <a href="#story">Since 1974</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <a href="tel:+441913857646">0191 385 7646</a>
+        <a href="tel:+447989441652">07989 441 652</a>
+        <a href="#area">Fencehouses, Houghton Le Spring</a>
+      </div>
+    </div>
+    <div class="footBottom">
+      <span>&copy; J. R. Manners Roofing Ltd. All rights reserved.</span>
+      <span>Site concept by AG1 Consulting</span>
+    </div>
+  </div>
+</footer>
+
+<div class="mobileCta">
+  <a class="btn btn-outline" href="tel:+441913857646"><iconify-icon icon="ph:phone-fill"></iconify-icon>Call</a>
+  <a class="btn btn-primary" href="#quote"><iconify-icon icon="ph:calendar-check-bold"></iconify-icon>Free Estimate</a>
+</div>
+
+<script>
+  document.querySelectorAll('[data-reveal]').forEach(el=>{
+    new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); } });
+    },{threshold:.15}).observe(el);
+  });
+
+  document.querySelectorAll('.faqQ').forEach(q=>{
+    q.addEventListener('click',()=>{
+      const item = q.parentElement;
+      const wasOpen = item.classList.contains('open');
+      document.querySelectorAll('.faqItem').forEach(i=>i.classList.remove('open'));
+      if(!wasOpen) item.classList.add('open');
+    });
+  });
+</script>
+
+</body>
+</html>
